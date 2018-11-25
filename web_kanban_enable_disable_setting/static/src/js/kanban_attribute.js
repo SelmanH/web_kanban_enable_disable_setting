@@ -1,4 +1,4 @@
-odoo.define('enable_disable_kanbanview_group_setting', function (require) {
+odoo.define('web_kanban_enable_disable_setting', function (require) {
     "use strict";
 
     var config = require('web.config');
