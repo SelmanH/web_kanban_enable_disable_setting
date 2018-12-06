@@ -1,13 +1,7 @@
-odoo.define('enable_disable_kanbanview_group_setting', function (require) {
+odoo.define('web_kanban_enable_disable_setting', function (require) {
     "use strict";
 
-    var config = require('web.config');
-    var core = require('web.core');
-    var Dialog = require('web.Dialog');
-    var form_common = require('web.form_common');
-    var Widget = require('web.Widget');
     var quick_create = require('web_kanban.quick_create');
-    var KanbanRecord = require('web_kanban.Record');
     var KanbanColumn = require('web_kanban.Column');
     var KanbanView = require('web_kanban.KanbanView');
 
