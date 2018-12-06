@@ -4,7 +4,7 @@
     <data>
 		<template id="assets_backend" name="Asset Backend Theme" inherit_id="web.assets_backend">
 			<xpath expr=".">
-				<script src="/enable_disable_kanbanview_group_setting/static/src/js/kanban_attribute.js"></script>
+				<script src="/web_kanban_enable_disable_setting/static/src/js/kanban_attribute.js"></script>
 			</xpath>
 		</template>
     </data>
