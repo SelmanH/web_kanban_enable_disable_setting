@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <template xml:space="preserve">
-    <t  t-extend="KanbanView.Group">
+    <t t-extend="KanbanView.Group" t-name="KanbanView.Group">
         <t t-jquery='span:nth-child(3)' t-operation='replace'>
-           <span t-if="widget.enable_setting" t-attf-class="o_kanban_config dropdown">
+           <span t-if="widget.enable_setting and widget.enable_setting!='false'"  t-attf-class="o_kanban_config dropdown #{widget.enable_setting}">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-gear"/></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a class="o_kanban_toggle_fold" href="#">Fold</a></li>

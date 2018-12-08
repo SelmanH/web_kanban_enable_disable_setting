@@ -12,7 +12,7 @@ to enable or disable the setting displayed in the header view on hover on the ti
     'author': "Hichri Selman",
     'category': 'Extra Tools',
     'version': '0.1',
-    'depends': ['base','web_kanban'],
+    'depends': ['base','web'],
     'data': [
         'views/assets.xml'
     ],
